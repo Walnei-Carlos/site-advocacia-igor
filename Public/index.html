@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor Nogueira - Soluções Jurídicas</title>
+    <link rel="icon" type="image/png" href="images/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <img src="images/Logo.png" alt="Logo Dr. Igor Nogueira" class="logo-img">
+                    Igor Nogueira
+                </a>
+                <div class="nav-right">
+                    <ul class="nav-menu">
+                        <li><a href="#servicos">Áreas de Atuação</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                    <a href="#" id="openModalBtn" class="btn btn-primary">Agende uma Consulta</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Soluções Jurídicas Sob Medida para Suas Necessidades</h1>
+                <p>Assessoria jurídica experiente, fornecendo orientação e representação especializada em diversas áreas do direito.</p>
+            </div>
+        </section>
+
+        <section id="servicos" class="services">
+            <div class="container">
+                <h2 data-aos="fade-up">Áreas de Atuação</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Uma gama abrangente de serviços jurídicos para atender às diversas necessidades.</p>
+                
+                <div class="services-grid">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-user-tie service-icon"></i>
+                        <h3>Direito Trabalhista</h3>
+                        <p>Defesa dos direitos de empregados e empregadores, atuando em reclamações trabalhistas e consultoria preventiva.</p>
+                    </div>
+                    
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-landmark service-icon"></i>
+                        <h3>Direito Previdenciário</h3>
+                        <p>Assessoria completa para aposentadorias, pensões, auxílios e outros benefícios junto ao INSS, judicial e administrativamente.</p>
+                    </div>
+
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-balance-scale service-icon"></i>
+                        <h3>Direito Cível</h3>
+                        <p>Atuação em contratos, obrigações, responsabilidade civil, direito do consumidor e questões imobiliárias.</p>
+                    </div>
+                    
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-file-signature service-icon"></i>
+                        <h3>Juizado Especial</h3>
+                        <p>Representação em causas de menor complexidade, buscando soluções rápidas e eficientes para o cidadão.</p>
+                    </div>
+
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                        <i class="fas fa-users service-icon"></i>
+                        <h3>Direito de Família</h3>
+                        <p>Assistência especializada em casos de divórcio, guarda de filhos, pensão alimentícia e planejamento sucessório.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="about">
+            <div class="container about-container">
+                <div class="about-text" data-aos="fade-right">
+                    <h2>Sobre</h2>
+                    <p>Advogado com experiência em Direito do Trabalho, Previdenciário e Cível, atuando na elaboração de peças processuais, acompanhamento de ações judiciais e administrativas, além de consultoria jurídica estratégica.</p>
+                    <p>Vivência em escritórios de advocacia e em estágio no Fórum de Volta Redonda, com prática em rotinas processuais, análise documental e defesa de direitos. Atuação destacada em projetos sociais voltados à comunidade LGBTQIA+, com foco em cidadania, diversidade e inclusão. </p>
+                </div>
+
+                <div class="about-image" data-aos="fade-left">
+                    <img src="images/Foto Igor.jpg" alt="Foto profissional do advogado">
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <div class="container">
+                <h2 data-aos="fade-up">Contato</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Entre em contato através dos canais digitais.</p>
+                <div class="social-icons" data-aos="fade-up" data-aos-delay="200">
+                    <a href="https://wa.me/5524998503265" target="_blank" aria-label="WhatsApp" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/igor_nogueiraadv/firebase" target="_blank" aria-label="Instagram" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/igor-nogueira2024143/" target="_blank" aria-label="LinkedIn" data-aos="fade-up" data-aos-delay="500">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Entre em Contato</h2>
+            <p>Preencha o formulário abaixo para agendar sua consulta.</p>
+            <form id="contact-form" class="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" rows="6" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2025 Igor Nogueira. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="privacidade.html">Política de Privacidade</a>
+                <a href="termos.html">Termos de Serviço</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Duração da animação em milissegundos
+            once: true      // Animar apenas uma vez
+        });
+    </script>
+</body>
+</html>

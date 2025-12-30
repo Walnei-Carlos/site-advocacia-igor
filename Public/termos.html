@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termos de Serviço - Igor Nogueira</title>
+
+    <link rel="icon" type="image/png" href="images/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/Logo.png" alt="Logo Dr. Igor Nogueira" class="logo-img">
+                    Igor Nogueira
+                </a>
+                <div class="nav-right">
+                    <ul class="nav-menu">
+                        <li><a href="index.html#servicos">Áreas de Atuação</a></li>
+                        <li><a href="index.html#sobre">Sobre</a></li>
+                        <li><a href="index.html#contato">Contato</a></li>
+                    </ul>
+                    <a href="#" id="openModalBtn" class="btn btn-primary">Agende uma Consulta</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container" style="padding: 4rem 20px; min-height: 60vh;">
+            <div class="legal-content" data-aos="fade-up">
+                <h1 class="legal-title">Termos de Serviço</h1>
+                <p class="legal-subtitle">Última atualização: 09/11/2025</p>
+
+                <p>Bem-vindo ao site do Dr. Igor Nogueira. Ao acessar e utilizar este site, você concorda em cumprir e aceitar os seguintes Termos de Serviço.</p>
+
+                <h2>1. Propósito do Site</h2>
+                <p>Este site e seu conteúdo são disponibilizados com finalidade exclusivamente informativa. As informações aqui contidas não constituem, sob nenhuma hipótese, aconselhamento jurídico, consultoria ou parecer legal.</p>
+
+                <h2>2. Inexistência de Relação Advogado-Cliente</h2>
+                <p>O simples uso deste site, incluindo o envio de informações através de nosso formulário de contato (nome e e-mail), não estabelece uma relação advogado-cliente. Tal relação só será formada após uma consulta formal e a assinatura de um contrato de honorários.</p>
+                <p>Não envie informações confidenciais antes de estabelecermos formalmente a relação advogado-cliente.</p>
+
+                <h2>3. Propriedade Intelectual</h2>
+                <p>Todo o conteúdo presente neste site, incluindo textos, artigos, logotipos, imagens e design, é de propriedade intelectual do Dr. Igor Nogueira ou utilizado com a devida autorização, sendo protegido pela legislação de direitos autorais.</p>
+                <p>Não é permitida a reprodução, distribuição ou utilização de qualquer conteúdo do site para fins comerciais sem autorização prévia e expressa.</p>
+
+                <h2>4. Limitação de Responsabilidade</h2>
+                <p>Embora nos esforcemos para manter as informações do site precisas e atualizadas, não garantimos a exatidão, completude ou atualidade do conteúdo. Não nos responsabilizamos por quaisquer decisões tomadas com base nas informações aqui apresentadas.</p>
+                <p>Este site pode conter links para sites de terceiros, os quais não são operados por nós. Não temos controle e não assumimos responsabilidade pelo conteúdo ou práticas de privacidade desses sites.</p>
+
+                <h2>5. Modificações nos Termos</h2>
+                <p>Reservamo-nos o direito de modificar estes Termos de Serviço a qualquer momento, sem aviso prévio. Recomendamos que você revise esta página periodicamente para estar ciente de quaisquer alterações.</p>
+
+                <h2>6. Legislação Aplicável</h2>
+                <p>Estes Termos de Serviço serão regidos e interpretados de acordo com as leis da República Federativa do Brasil.</p>
+
+                <h2>7. Contato</h2>
+                <p>Em caso de dúvidas sobre estes Termos de Serviço, entre em contato através do e-mail: igornogueiraadv2024@gmail.com</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2025 Igor Nogueira. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="privacidade.html">Política de Privacidade</a>
+                <a href="termos.html">Termos de Serviço</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Entre em Contato</h2>
+            <p>Preencha o formulário abaixo para agendar sua consulta.</p>
+            <form id="contact-form" class="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" rows="6" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

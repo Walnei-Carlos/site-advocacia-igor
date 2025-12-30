@@ -1,0 +1,29 @@
+minha-pasta-do-site/
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── images/
+│       ├── logo-igor-nogueira.png
+│       ├── background-advogado.jpg
+│       └── advogado.jpg
+├── .firebaserc
+└── firebase.json
+
+
+
+ESTAS SÃO AS OPÇÕES DE PERGUNTAS QUANDO TENTO CONECTAR AO FIREBASE:
+
+✔ Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.
+❯◯ Data Connect: Set up a Firebase Data Connect service
+ ◯ Firestore: Configure security rules and indexes files for Firestore
+ ◯ Genkit: Setup a new Genkit project with Firebase
+ ◯ Functions: Configure a Cloud Functions directory and its files
+ ◯ App Hosting: Set up deployments for full-stack web apps (supports server-side rendering)
+ ◯ Hosting: Set up deployments for static web apps
+ ◯ Storage: Configure a security rules file for Cloud Storage
+
+Apareceu mais uma pergunta:
+
+File public/index.html already exists. Overwrite? (y/N)
